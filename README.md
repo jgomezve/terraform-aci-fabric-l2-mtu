@@ -6,7 +6,7 @@
 Manage Fabric L2 MTU
 
 Location in GUI:
-`Tenants` » `XXX`
+`Fabric` » `Fabric Policies` » `Policies` » `Global` » `Fabric L2 MTU`
 
 ## Examples
 
