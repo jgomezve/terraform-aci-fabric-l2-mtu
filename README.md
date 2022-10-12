@@ -1,5 +1,5 @@
 <!-- BEGIN_TF_DOCS -->
-[![Tests](https://github.com/netascode/terraform-aci-fabric-l2-mtu/actions/workflows/test.yml/badge.svg)](https://github.com/netascode/terraform-aci-scaffolding/actions/workflows/test.yml)
+[![Tests](https://github.com/netascode/terraform-aci-fabric-l2-mtu/actions/workflows/test.yml/badge.svg)](https://github.com/netascode/terraform-aci-fabric-l2-mtu/actions/workflows/test.yml)
 
 # Terraform ACI Fabric L2 MTU Module
 
@@ -13,7 +13,7 @@ Location in GUI:
 ```hcl
 module "aci_fabric_l2_mtu" {
   source  = "netascode/fabric-l2-mtu/aci"
-  version = ">= 0.0.1"
+  version = ">= 0.1.0"
 
   l2_port_mtu = 9216
 }
@@ -23,7 +23,7 @@ module "aci_fabric_l2_mtu" {
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.3.0 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0.0 |
 | <a name="requirement_aci"></a> [aci](#requirement\_aci) | >= 2.0.0 |
 
 ## Providers
